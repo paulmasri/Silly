@@ -10,6 +10,7 @@ find_package(Qt6 6.2 COMPONENTS Quick REQUIRED)
 qt_add_qml_module(CommonAnimals
     URI CommonAnimals
     VERSION 1.0
+    OUTPUT_DIRECTORY CommonAnimals
     SOURCES
         Animal.h Animal.cpp
         Mammal.h Mammal.cpp
@@ -20,6 +21,7 @@ qt_add_qml_module(CommonAnimals
 qt_add_qml_module(Bird
     URI Bird
     VERSION 1.0
+    OUTPUT_DIRECTORY Bird
     SOURCES
         Penguin.h Penguin.cpp
 )
